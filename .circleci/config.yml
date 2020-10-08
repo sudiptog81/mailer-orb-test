@@ -7,6 +7,6 @@ workflows:
       - mailer-orb/mail:
           to: "sudipto@ghosh.pro"
           from: "admin@ghosh.pro"
-          smtp_host: "$SMTP_HOST"
-          smtp_user: "$SMTP_USER"
-          smtp_pass: "$SMTP_PASS"
+          smtp_host: $SMTP_HOST
+          smtp_user: $SMTP_USER
+          smtp_pass: $SMTP_PASS
