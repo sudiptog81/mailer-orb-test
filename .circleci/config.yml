@@ -1,8 +1,10 @@
 version: 2.1
+
 orbs:
   mailer-orb: sudiptog81/mailer-orb@dev:alpha
+
 workflows:
-  use-my-orb:
+  use-orb:
     jobs:
       - mailer-orb/mail:
           to: "sudipto@ghosh.pro"
