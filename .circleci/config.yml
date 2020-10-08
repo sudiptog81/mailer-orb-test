@@ -9,4 +9,4 @@ workflows:
       - mailer-orb/mail:
           to: "sudipto@ghosh.pro"
           from: "admin@ghosh.pro"
-          subject: "Mail from mailer-orb"
+          subject: "Mail from mailer-orb "
