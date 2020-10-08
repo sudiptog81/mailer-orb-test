@@ -1,0 +1,4 @@
+Subject: Custom E-mail
+This is your message body.
+Regards,
+Circle CI
